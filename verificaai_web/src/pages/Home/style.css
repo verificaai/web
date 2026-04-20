@@ -1,0 +1,51 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content{
+    flex: 1; 
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 10vh 10vw;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    & h1{
+        color: #000;
+        text-align: center;
+        font-size: 80px;
+        font-weight: 400;
+    }
+
+    & p{
+        max-width: 560px;
+        width: 100%;
+        color: #000;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
+
+.home-container button{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #183EFF;
+    border-radius: 7px;
+    padding: 15px 20px;
+}
