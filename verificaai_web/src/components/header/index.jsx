@@ -6,32 +6,30 @@ import Lupa from '../../assets/Lupa.svg'
 function Header() {
 
   return (
-    <>
-      <header>
-        <div className='links'>
-          <ul>
-            <li>
-              <a href="#">
-                <img src={Logo} alt="logo" />
-              </a>
-            </li>
+    <header>
+      <div className='links'>
+        <ul>
+          <li>
+            <a href="#">
+              <img src={Logo} alt="logo" />
+            </a>
+          </li>
 
-            <li>
-              <a href="#">Analisar</a>
-            </li>
+          <li>
+            <a href="#">Analisar</a>
+          </li>
 
-            <li>
-              <a href="#">Sobre nós</a>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <a href="#">Sobre nós</a>
+          </li>
+        </ul>
+      </div>
 
-        <button>
-          <img src={Lupa} alt="lupa" />
-          <p>VERIFICAR</p>
-        </button>
-      </header>
-    </>
+      <button>
+        <img src={Lupa} alt="lupa" />
+        <p>VERIFICAR</p>
+      </button>
+    </header>
   )
 }
 

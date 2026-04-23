@@ -6,11 +6,9 @@ import Footer from '../../components/footer'
 function Home() {
 
   return (
-    <>
      <div className='page'>
       <Header />
       
-        <main className='content'>
           <div className='home-container'>
             <div className='texto'>
               <h1>
@@ -26,11 +24,9 @@ function Home() {
               Verificar agora
             </button>
           </div>
-        </main>
 
-        <Footer />
+      <Footer />
      </div>
-    </>
   )
 }
 
