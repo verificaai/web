@@ -2,26 +2,29 @@ import { useState } from 'react'
 import './style.css'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
+import Upload from '../../assets/Upload.svg'
 
 function Verify() {
+  function handleFileChange(){
+    console.log("a")
+  }
+
+  function handleUpload(){
+    console.log("b")
+  }
+  
   return (
-     <div className='page'>
-      <Header />
+    <div className='upload'>
+        <div className='inputFile'>
+          <input type="file" onChange={handleFileChange}/>
+          
+          <img src={Upload}/>
 
-      <div className='about-container'>
-        <div className='texto'>
           <h1>
-            Verificar
+            Carregar Vídeo
           </h1>
-
-          <h2>
-            É fácil, quer ver?
-          </h2>
         </div>
-      </div>
-
-      <Footer />
-     </div>
+    </div>
   )
 }
 

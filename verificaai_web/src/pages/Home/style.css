@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 1.5rem;
     padding: 10vh 10vw;
 }
 
@@ -12,30 +12,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 1.5vh;
 
     & h1{
         color: #000;
         text-align: center;
-        font-size: 80px;
+        font-size: 5rem;
         font-weight: 400;
     }
 
     & p{
-        max-width: 560px;
         width: 100%;
         color: #000;
         text-align: center;
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 400;
     }
 }
 
 .home-container button{
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     background-color: #183EFF;
     border-radius: 7px;
-    padding: 15px 20px;
+    padding: 1rem 1.25rem;
 }
