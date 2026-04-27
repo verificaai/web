@@ -27,12 +27,4 @@
         font-size: 3rem;
         font-weight: 700;
     }
-
-    & p{
-        color: #000;
-        text-align: center;
-        font-size: 3rem;
-        font-style: normal;
-        font-weight: 400;
-    }
 }

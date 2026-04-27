@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './style.css'
-import Topics from './index'
 
 function Problema(){
     return(

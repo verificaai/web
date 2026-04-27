@@ -1,10 +1,29 @@
 import { useState } from 'react'
 import './style.css'
-import Acoes from './acoes.jsx'
+
+import Acoes from './acoes'
+import Consideracoes from './consideracoes'
+import OqueE from './oquee'
+import Problema from './problema'
+import Resultados from './resultados'
+import Solucao from './solucao'
 
 function Topics() {
   function changeTopic(indice){
-
+    switch(indice){
+      case 1:
+        break;
+      case 2: 
+        break;
+      case 3:
+        break;
+      case 4:
+        break;
+      case 5:
+        break;
+      case 6:
+        break;
+    }
   }
 
   return (
@@ -19,28 +38,28 @@ function Topics() {
             VerificaAI
           </button>
           
-          <button onClick={() =>changeTopic(1)}>
+          <button onClick={() =>changeTopic(2)}>
             Problema
           </button>
           
-          <button onClick={() =>changeTopic(1)}>
+          <button onClick={() =>changeTopic(3)}>
             Solução
           </button>
           
-          <button onClick={() =>changeTopic(1)}>
+          <button onClick={() =>changeTopic(4)}>
             Ações
           </button>
           
-          <button onClick={() =>changeTopic(1)}>
+          <button onClick={() =>changeTopic(5)}>
             Resultados
           </button>
           
-          <button onClick={() =>changeTopic(1)}>
+          <button onClick={() =>changeTopic(6)}>
             Considerações
           </button>
         </div>
 
-        <Acoes />
+        <div className='texto'></div>
       </div>
      </div>
   )
