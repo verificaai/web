@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './style.css'
-import VerificaAI from '../../assets/VerificaAI.svg'
+import VerificaAI from '../../assets/VerificaAI-footer.svg'
 
 function Footer() {
 

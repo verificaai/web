@@ -1,5 +1,6 @@
 .about-container{
     margin: 3.75rem;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
