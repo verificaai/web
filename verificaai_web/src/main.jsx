@@ -6,6 +6,6 @@ import Verify from './pages/Verify'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Home />
+    <Verify />
   </StrictMode>,
 )
