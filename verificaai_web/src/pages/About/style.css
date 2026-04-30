@@ -6,11 +6,6 @@
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
-
-    & img{
-        border-radius: 100px 0;
-        width: 100%;
-    }
 }
 
 .texto{
@@ -32,4 +27,9 @@
         font-size: 1.5rem;
         font-weight: 400;
     }
+}
+
+.imagem{
+    border-radius: 100px 0;
+    width: 100%;
 }
