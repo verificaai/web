@@ -7,7 +7,7 @@
     padding: 10vh 10vw;
 }
 
-.texto{
+.home-container .texto{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,11 +30,18 @@
     }
 }
 
-.home-container button{
+.home-container .button{
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     background-color: #183EFF;
-    border-radius: 7px;
-    padding: 1rem 1.25rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: none;
+    text-decoration: none;
+}
+
+.home-container .button:hover{
+    cursor: pointer;
+    opacity: 0.9;
 }

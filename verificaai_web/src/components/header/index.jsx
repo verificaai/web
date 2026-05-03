@@ -27,10 +27,10 @@ function Header() {
         </ul>
       </div>
 
-      <button>
+      <Link to={"/verificar"} className='button'>
         <img src={Lupa} alt="lupa" />
         <p>VERIFICAR</p>
-      </button>
+      </Link>
     </header>
   )
 }

@@ -14,8 +14,18 @@
     gap: 2.5rem;
 }
 
-button{
+.sobre button{
     font-size: 1.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    background-color: #183EFF;
+    border: none;
+
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sobre button:hover{
+    cursor: pointer;
 }

@@ -3,6 +3,8 @@ import './style.css'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 
+import { Link } from 'react-router-dom'
+
 function Home() {
 
   return (
@@ -20,9 +22,9 @@ function Home() {
             </p>
           </div>
 
-          <button>
+          <Link to={"/verificar"} className='button'>
             Verificar agora
-          </button>
+          </Link>
         </div>
 
     <Footer />

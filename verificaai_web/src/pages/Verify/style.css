@@ -7,10 +7,11 @@
     gap: 3rem;
 }
 
-.texto{
+.upload-container .texto{
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-direction: column;
     gap: 0;
 
     & h1{
@@ -39,5 +40,9 @@
         font-size: 1.5rem;
         font-weight: 700;
         border-radius: 5px;
+        background-color: #183EFF;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
     }
 }
