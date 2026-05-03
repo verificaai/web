@@ -6,27 +6,27 @@ import Footer from '../../components/footer'
 function Home() {
 
   return (
-     <div className='page'>
-      <Header />
-      
-          <div className='home-container'>
-            <div className='texto'>
-              <h1>
-                Transformando dúvidas em respostas seguras
-              </h1>
+    <div className='page'>
+    <Header />
 
-              <p>
-                VerificaAI surge para freiar a disseminação de informações falsas geradas por Inteligência Artificial, sendo uma ferramenta de fácil acesso que permite os usuários verificarem de forma rápida a veracidade da origem dos vídeos recebidos
-              </p>
-            </div>
+        <div className='home-container'>
+          <div className='texto'>
+            <h1>
+              Transformando dúvidas em respostas seguras
+            </h1>
 
-            <button>
-              Verificar agora
-            </button>
+            <p>
+              VerificaAI surge para freiar a disseminação de informações falsas geradas por Inteligência Artificial, sendo uma ferramenta de fácil acesso que permite os usuários verificarem de forma rápida a veracidade da origem dos vídeos recebidos
+            </p>
           </div>
 
-      <Footer />
-     </div>
+          <button>
+            Verificar agora
+          </button>
+        </div>
+
+    <Footer />
+    </div>
   )
 }
 

@@ -3,6 +3,8 @@ import './style.css'
 import Logo from '../../assets/Logo.svg'
 import Lupa from '../../assets/Lupa.svg'
 
+import { Link } from 'react-router-dom'
+
 function Header() {
 
   return (
@@ -10,17 +12,17 @@ function Header() {
       <div className='links'>
         <ul>
           <li>
-            <a href="#">
+            <Link to={"/"}>
               <img src={Logo} alt="logo" />
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="#">Analisar</a>
+            <Link to={"/verificar"}>Analisar</Link>
           </li>
 
           <li>
-            <a href="#">Sobre nós</a>
+            <Link to={"/sobre"}>Sobre nós</Link>
           </li>
         </ul>
       </div>
