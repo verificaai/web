@@ -19,6 +19,7 @@
         text-align: center;
         font-size: 5rem;
         font-weight: 400;
+        max-width: 75rem;
     }
 
     & p{
@@ -27,6 +28,7 @@
         text-align: center;
         font-size: 1.5rem;
         font-weight: 400;
+        max-width: 35rem;
     }
 }
 
