@@ -13,13 +13,13 @@
     padding: 10% 5%;
 }
 
-input{
+.inputFile input{
     opacity: 0;
     position: absolute;
     inset: 0;
 }
 
-h1{
+.inputFile h1{
     color: #4C4C4C;
     font-size: 2rem;
     font-style: normal;

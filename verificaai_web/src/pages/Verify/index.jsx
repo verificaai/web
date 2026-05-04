@@ -10,7 +10,7 @@ function Verify() {
       <Header />
       
           <div className='upload-container'>
-            <div className='texto'>
+            <div className='text'>
               <h1>
                 Verificar
               </h1>

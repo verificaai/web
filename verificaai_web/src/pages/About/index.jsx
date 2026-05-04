@@ -10,7 +10,7 @@ function About() {
       <Header/>
 
       <div className='about-container'>
-        <div className='texto'>
+        <div className='text'>
           <h1>
           Sobre nós
           </h1>

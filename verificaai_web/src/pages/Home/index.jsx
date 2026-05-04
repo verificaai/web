@@ -12,7 +12,7 @@ function Home() {
     <Header />
 
         <div className='home-container'>
-          <div className='texto'>
+          <div className='text'>
             <h1>
               Transformando dúvidas em respostas seguras
             </h1>

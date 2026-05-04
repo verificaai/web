@@ -8,10 +8,10 @@ function Footer() {
 
   return (
     <footer>
-      <div className='container'>
-        <img src={VerificaAI} alt="" />
+      <div className='footer-container'>
+        <img src={VerificaAI} alt="VerificaAI" />
 
-        <ul className='paginas'>
+        <ul className='pages'>
           <h3>Páginas</h3>
           <li>
             <Link to={"/"}>Principal</Link>
@@ -24,14 +24,14 @@ function Footer() {
           </li>
         </ul>
         
-        <ul className='redes'>
+        <ul className='social'>
           <h3>Redes</h3>
           <li>
             <Link to={"https://github.com/verificaai"}>GitHub</Link>
           </li>
         </ul>
 
-        <ul className='contato'>
+        <ul className='contact'>
           <h3>Contato</h3>
           <li>
             <Link>Contato</Link>

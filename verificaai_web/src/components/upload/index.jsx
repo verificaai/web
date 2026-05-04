@@ -16,7 +16,7 @@ function Upload() {
             <div className='inputFile'>
                 <input type="file" onChange={handleFileChange}/>
 
-                <img src={IMG_upload}/>
+                <img src={IMG_upload} alt='upload'/>
 
                 <h1>
                     Carregar Vídeo

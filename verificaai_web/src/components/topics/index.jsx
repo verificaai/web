@@ -3,51 +3,51 @@ import './style.css'
 import VerificaAI from '../../assets/VerificaAI-about.svg'
 
 function Topics() {
-  const botoes = ['VerificaAI', 'Problema', 'Solução',
+  const buttons = ['VerificaAI', 'Problema', 'Solução',
                   'Ações', 'Resultados', 'Considerações'
                  ];
-  const [conteudos, setConteudos] = useState([]);
-  const [indiceAtual, setIndiceAtual] = useState(0);
+  const [content, setContent] = useState([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  function changeTopic(indice){
-    setIndiceAtual(indice);
+  function changeTopic(index){
+    setCurrentIndex(index);
   }
 
   useEffect(() => {
     fetch('/Sobre.txt')
       .then(res => res.text())
       .then(res => {
-        const linhas = res.split('\n');
+        const lines = res.split('\n');
 
-        const dados = linhas.map(linha => {
-          const posicao = linha.indexOf(';');
+        const data = lines.map(line => {
+          const pos = line.indexOf(';');
           return {
-            titulo: linha.slice(0, posicao),
-            texto: linha.slice(posicao + 1)
+            title: line.slice(0, pos),
+            text: line.slice(pos + 1)
           };
         });
 
-        setConteudos(dados);
+        setContent(data);
       });
   }, []);
 
   return (
-    <div className='sobre'>
-      <img src={VerificaAI}/>
+    <div className='about'>
+      <img src={VerificaAI} alt='VerificaAI'/>
 
-      <div className='topicos'>
-        {botoes.map((botao, i) =>(
+      <div className='topics'>
+        {buttons.map((btn, i) =>(
           <button key={i} onClick={() => changeTopic(i)}>
-            {botao}
+            {btn}
           </button>
         ))}
       </div>
 
-      <div className='texto'>
-        {conteudos[indiceAtual] && (
+      <div className='text'>
+        {content[currentIndex] && (
           <div>
-            <h1>{conteudos[indiceAtual].titulo}</h1>
-            <p>{conteudos[indiceAtual].texto}</p>
+            <h1>{content[currentIndex].title}</h1>
+            <p>{content[currentIndex].text}</p>
           </div>
         )}
       </div>
