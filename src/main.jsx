@@ -4,12 +4,14 @@ import './index.css'
 import Home from './pages/Home'
 import About from './pages/About'
 import Verify from './pages/Verify'
+import Error from './pages/Error'
 
 import{ createBrowserRouter, RouterProvider } from 'react-router-dom'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />
+    element: <Home />,
+    errorElement: <Error />
   },
   {
     path: "sobre",
