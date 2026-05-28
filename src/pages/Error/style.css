@@ -19,3 +19,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.error-container .button{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: #183EFF;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: none;
+    text-decoration: none;
+}
