@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './style.css'
-import Header from '../../components/header'
-import Footer from '../../components/footer'
+import { Header } from '../../components/Header'
+import { Footer } from '../../components/Footer'
 import Topics from '../../components/topics'
 
 function About() {

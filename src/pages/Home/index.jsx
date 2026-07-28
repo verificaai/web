@@ -1,33 +1,20 @@
 import { useState } from 'react'
-import './style.css'
-import Header from '../../components/header'
-import Footer from '../../components/footer'
-
 import { Link } from 'react-router-dom'
+import { Header } from '../../components/Header'
+import { Homepage } from '../../components/Homepage'
+import { Footer } from '../../components/Footer'
 
 function Home() {
 
   return (
-    <div className='page'>
-    <Header />
+    <div className="flex min-h-screen flex-col bg-background">
+      <Header />
 
-        <div className='home-container'>
-          <div className='text'>
-            <h1>
-              Transformando dúvidas em respostas seguras
-            </h1>
+      <main className="flex-1">
+        <Homepage />
+      </main>
 
-            <p>
-              VerificaAI surge para freiar a disseminação de informações falsas geradas por Inteligência Artificial, sendo uma ferramenta de fácil acesso que permite os usuários verificarem de forma rápida a veracidade da origem dos vídeos recebidos
-            </p>
-          </div>
-
-          <Link to={"/verificar"} className='button'>
-            Verificar agora
-          </Link>
-        </div>
-
-    <Footer />
+      <Footer />
     </div>
   )
 }
