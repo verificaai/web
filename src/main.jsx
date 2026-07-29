@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Home from './pages/Home'
+import { Home } from './pages/Home'
 import About from './pages/About'
-import Verify from './pages/Verify'
+import { Verify } from './pages/Verify'
 import Error from './pages/Error'
 
 import{ createBrowserRouter, RouterProvider } from 'react-router-dom'

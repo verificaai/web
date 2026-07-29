@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import { Menu, X, ShieldCheck } from 'lucide-react'
 
 const links = [
-  { to: "/analisar", label: "Analisar"},
+  { to: "/verificar", label: "Analisar"},
   { to: "/sobre", label: "Sobre nós"}
 ]
 
@@ -15,7 +15,9 @@ export function Header() {
   return (
     <header className='sticky top-0 z-50 border-b border-border bg-background'>
       <nav className='mx-auto flex h-16 max-w-6xl items-center justify-between px-5' aria-label='Principal'>
-        <img src={Logo} alt="Logo" />
+        <Link to = '/'>
+          <img src={Logo} alt="Logo" />
+        </Link>
 
         <div className='hidden items-center gap-8 md:flex'>
           {

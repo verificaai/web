@@ -30,7 +30,7 @@ export function Footer() {
         <ul className = 'mt-4 space-y-2.5 text-sm text-muted-foreground'>
           <li><Link to='/' className='hover:text-[#183EFF] transition-colors'>Principal</Link></li>
           <li><Link to='/sobre' className='hover:text-[#183EFF] transition-colors'>Sobre</Link></li>
-          <li><Link to='/verificar' className='hover:text-[#183EFF] transition-colors'>Vrrificar</Link></li>
+          <li><Link to='/verificar' className='hover:text-[#183EFF] transition-colors'>Verificar</Link></li>
         </ul>
       </nav>
 
