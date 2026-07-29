@@ -11,7 +11,7 @@ const BRAND = {
 
 export function Homepage(){
     return(
-        <section>
+        <section className="relative overflow-hidden bg-background px-5 pt-24 pb-24 sm:pt-32 sm:pb-32">
             {/*blobs*/}
             <div aria-hidden = 'true' className = 'pointer-events-none absolute inset-0 overflow-hidden'>
                 <div
@@ -53,7 +53,7 @@ export function Homepage(){
                 <div className = 'mt-10'>
                     <Link
                         to = '/verificar'
-                        className = 'inline-flex items-center gap-2 rounded-md px-6 py-3 text-sm font-bold text-white shadow-lg shadow-[#183EFF]/25 transition-açç duration-300 hover:scale-[1.03] hover:brightness-100 focus-visible:outlined focus-visible:outline-2 focus-visible-offset-4 focus-visible:outline-ring'
+                        className = 'inline-flex items-center gap-2 rounded-md px-6 py-3 text-sm font-bold text-white shadow-lg shadow-[#183EFF]/25 transition-all duration-300 hover:scale-[1.03] hover:brightness-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring'
                         style = {{ backgroundImage: `linear-gradient(90deg, ${BRAND.blue}, ${BRAND.green})` }}
                     >
                         Verificar agora

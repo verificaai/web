@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import VerificaAI from '../assets/VerificaAI-footer.svg'
 import { Link } from 'react-router-dom'
-import { FileText, Github, Mail } from "lucide-react";
+import { FileText, Github, Mail } from "lucide-react"
 
 const EMAIL = 'verificaai@gmail.com'
 
