@@ -1,23 +1,21 @@
 import { useState } from 'react'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
-import { sobreTopics } from '../data/sobreContent'
+import { sobreTopics } from '../data/sobreContent.json'
 import banner from '../assets/bliss.png'
 import Logo from '../assets/VerificaAI-about.svg'
+import { Bubbles } from '../components/Bubbles'
 
 export function About() {
   const [active, setActive] = useState(sobreTopics[0].id);
   const topic = sobreTopics.find((t) => t.id === active) ?? sobreTopics[0];
   return (
-    <div className = 'flex min-h-screen flex-col bg-background'>
+    <div className = 'relative flex min-h-screen flex-col'>
+      <Bubbles />
       <Header />
 
       <main className = 'flex-1'>
-        <section className = 'relative overflow-hidden px-5 pt-16 pb-10'>
-          <div aria-hidden = 'true' className = 'pointer-events-none absolute inset-0'>
-            <div className = 'absolute -left-24 top-0 h-72 w-72 rounded-full opacity-20 blur-3xl' style = {{ backgroundColor: '#00CB00' }} />
-            <div className = 'absolute -right-20 top-10 h-80 w-80 rounded-full opacity-20 blur-3xl' style = {{ backgroundColor: '#183EFF' }} />
-          </div>
+        <section className = 'relative px-5 pt-16 pb-10'>
 
           <div className = 'relative mx-auto max-w-3xl text-center'>
             <h1 className = 'text-4xl font-bold tracking-tight text-foreground sm:text-5xl'>
@@ -56,7 +54,7 @@ export function About() {
           <div
             role = 'tablist'
             aria-label = "Tópicos sobre o VerificaAI"
-            className = 'grid grid-cols-2 gap-2.5 sm:grid-cols-4 lg:flex lg:flex-wrap lg:justify-center'
+            className = 'grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:flex lg:flex-wrap lg:justify-center'
           >
             {sobreTopics.map((t) => {
               const isActive = t.id === active;
@@ -69,7 +67,7 @@ export function About() {
                   aria-selected = {isActive}
                   aria-controls = 'painel-sobre'
                   onClick = {() => setActive(t.id)}
-                  className = {`rounded-md border px-4 py-2.5 text-sm font-semibold transition-all duration-300 ${
+                  className = {`rounded-md px-4 py-2.5 text-sm font-semibold transition-all duration-300 ${
                     isActive
                       ? 'border-transparent text-white shadow-lg shadow-[#183EFF]/25'
                       : 'border-border bg-background text-muted-foreground hover:border-[#183EFF] hover:text-[#183EFF]'
@@ -107,6 +105,7 @@ export function About() {
           </div>
         </section>
       </main>
+      
       <Footer />
     </div>
   );
