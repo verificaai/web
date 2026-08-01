@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Logo from '../assets/Logo.svg'
-import Lupa from '../assets/Lupa.svg'
+import Lupa from '../assets/Lupa.png'
 
 import { Link } from 'react-router-dom'
 import { Menu, X, ShieldCheck } from 'lucide-react'

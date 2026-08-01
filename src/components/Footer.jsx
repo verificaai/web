@@ -3,7 +3,7 @@ import VerificaAI from '../assets/VerificaAI-footer.svg'
 import { Link } from 'react-router-dom'
 import { FileText, Github, Mail } from "lucide-react"
 
-const EMAIL = 'verificaai@gmail.com'
+const EMAIL = 'verificaai.contact@gmail.com'
 
 export function Footer() {
 
@@ -71,12 +71,6 @@ export function Footer() {
           </li>
         </ul>
       </div>
-      </div>
-
-      <div className = 'border-t border-border'>
-        <p className = 'mx-auto max-w-6xl px-5 py-6 text-xs text-muted-foreground'>
-          © 2026 VerificaAI
-        </p>
       </div>
     </footer>
   )

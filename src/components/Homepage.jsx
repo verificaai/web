@@ -1,6 +1,7 @@
 import { Check, Search, ShieldCheck, Sparkles } from 'lucide-react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { BouncingBubble } from "./BouncingBubble";
 
 const BRAND = {
     green: '#00CB00',
@@ -14,20 +15,26 @@ export function Homepage(){
         <section className="relative overflow-hidden bg-background px-5 pt-24 pb-24 sm:pt-32 sm:pb-32">
             {/*blobs*/}
             <div aria-hidden = 'true' className = 'pointer-events-none absolute inset-0 overflow-hidden'>
-                <div
-                    className = 'absolute -left-24 top-4 h-72 w-72 rounded-full opacity-20 blur-3xl'
-                    style = {{ backgroundColor: BRAND.green }}
-                />
+                <BouncingBubble>
+                    <div
+                        className = 'absolute -left-24 top-4 h-72 w-72 rounded-full opacity-20 blur-3xl'
+                        style = {{ backgroundColor: BRAND.green }}
+                    />
+                </BouncingBubble>
 
-                <div
-                    className = 'absolute -right-20 top-24 h-80 w-80 rounded-full opacity-20 blur-3xl'
-                    style = {{ backgroundColor: BRAND.blue }}
-                />
+                <BouncingBubble>
+                    <div
+                        className = 'absolute -right-20 top-24 h-80 w-80 rounded-full opacity-20 blur-3xl'
+                        style = {{ backgroundColor: BRAND.blue }}
+                    />
+                </BouncingBubble>
 
-                <div
-                    className = 'absolute bottom-0 left-1/3 h-64 w-64 rounded-full opacity-[0.18] blur-3xl'
-                    style = {{ backgroundColor: BRAND.yellow }}
-                />
+                <BouncingBubble>
+                    <div
+                        className = 'absolute bottom-0 left-1/3 h-64 w-64 rounded-full opacity-[0.18] blur-3xl'
+                        style = {{ backgroundColor: BRAND.yellow }}
+                    />
+                </BouncingBubble>
             </div>
 
             <div className = 'relative mx-auto max-w-3xl text-center'>

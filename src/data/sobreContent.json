@@ -5,21 +5,21 @@
             "label": "VerificaAI",
             "title": "O que é",
             "content":
-                "O acesso à informação é essencial para a formação de uma sociedade funcional, se esse acesso é prejudicado por conta da confiabilidade dos dados, cria-se uma sociedade frágil.Essa situação é evidente no Brasil, onde percebemos uma presença massiva de analfabetos digitais, isto é, pessoas com dificuldade em “ler” o mundo digital e mexer com a tecnologia moderna. Isso se dá, principalmente, pela notória desigualdade social no país, fazendo com que grande parte da população não tenha acesso à internet. Assim, fica evidente que essa restrição impacta diretamente o acesso à informações confiáveis por meio da internet. Esse cenário pode gerar confusões e desinformação.Identificados tais problemas, este projeto nasce com o intuito de utilizar a IA para democratizar o acesso à informação. Através de uma rede neural, a proposta busca alcançar qualquer pessoa que sofra com a disseminação de conteúdo duvidoso."
+                ""
         },
         {
             "id": "problema",
             "label": "Problema",
             "title": "O contexto e a justificativa",
             "content":
-                "ACACACAACACACAACACACAACACACAACACACACAC"
+                "Por conta da crescente evolução da IA, elas acabaram se tornando mais eficientes e acessíveis. Porém, esse cenário torna propício o compartilhamento de informações nocivas, especialmente quando um usuário mal-intencionado tem acesso a elas. Aliado ao baixo letramento da população sobre o tema, surge um cenário vulnerável.\n\nDiante disso,no contexto atual com o surgimento de ferramentas user-friendly para a criação de mídias sintéticas, faz-se necessária a criação de uma plataforma que faça o reconhecimento de conteúdo gerado por inteligências artificiais.\n\nEssa situação é evidente no Brasil, onde percebemos uma presença massiva de analfabetos digitais, isto é, pessoas com dificuldade em “ler” o mundo digital e mexer com a tecnologia moderna. Isso se dá, principalmente, pela notória desigualdade social no país, fazendo com que grande parte da população não tenha acesso à internet. Assim, fica evidente que essa restrição impacta diretamente o acesso à informações confiáveis por meio da internet. Esse cenário pode gerar confusões e desinformação.\n\nIdentificados tais problemas, este projeto nasce com o intuito de utilizar a IA para democratizar o acesso à informação. Através de uma rede neural, a proposta busca alcançar qualquer pessoa que sofra com a disseminação de conteúdo duvidoso."
         },
         {
             "id": "solucao",
             "label": "Solução",
             "title": "Nosso objetivo",
             "content":
-                "ADADADAADADADAADADADAADADADAADADADADADA"
+                "O objetivo principal do projeto é desenvolver uma plataforma confiável que integra inteligência artificial para a distinção de vídeos sintéticos dos reais, tornando a internet um lugar mais transparente.\n\nPara isso, foi criado um website com uma interface intuitiva e acessível para qualquer perfil de usuário. Além disso, será desenvolvida uma inteligência artificial baseada em redes neurais para realizar a classificação dos vídeos de forma automatizada, buscando atingir uma taxa de acerto o mais próxima possível de 100%, de modo a garantir maior confiabilidade nos resultados apresentados pela plataforma."
         },
         {
             "id": "acoes",
