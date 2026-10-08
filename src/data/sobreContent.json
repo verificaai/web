@@ -5,42 +5,42 @@
             "label": "VerificaAI",
             "title": "O que é",
             "content":
-                ""
+                "O VerificaAI é uma plataforma voltada à identificação de indícios de geração de vídeos por Inteligência Artificial. A proposta é permitir que o usuário envie um vídeo para análise e receba uma avaliação baseada em características e vestígios forenses presentes no conteúdo, sem realizar um julgamento sobre a veracidade das informações apresentadas no vídeo.\n\nA solução utiliza técnicas de Inteligência Artificial e aprendizado de máquina para analisar características visuais e temporais dos vídeos. A análise busca identificar padrões ou inconsistências que possam indicar uma origem sintética, apresentando também evidências que tornem o resultado mais transparente e compreensível para o usuário.\n\nO projeto prevê uma plataforma web simples, responsiva e acessível, com preocupação com a privacidade dos usuários e sem armazenamento permanente dos vídeos enviados."
         },
         {
             "id": "problema",
             "label": "Problema",
             "title": "O contexto e a justificativa",
             "content":
-                "Por conta da crescente evolução da IA, elas acabaram se tornando mais eficientes e acessíveis. Porém, esse cenário torna propício o compartilhamento de informações nocivas, especialmente quando um usuário mal-intencionado tem acesso a elas. Aliado ao baixo letramento da população sobre o tema, surge um cenário vulnerável.\n\nDiante disso,no contexto atual com o surgimento de ferramentas user-friendly para a criação de mídias sintéticas, faz-se necessária a criação de uma plataforma que faça o reconhecimento de conteúdo gerado por inteligências artificiais.\n\nEssa situação é evidente no Brasil, onde percebemos uma presença massiva de analfabetos digitais, isto é, pessoas com dificuldade em “ler” o mundo digital e mexer com a tecnologia moderna. Isso se dá, principalmente, pela notória desigualdade social no país, fazendo com que grande parte da população não tenha acesso à internet. Assim, fica evidente que essa restrição impacta diretamente o acesso à informações confiáveis por meio da internet. Esse cenário pode gerar confusões e desinformação.\n\nIdentificados tais problemas, este projeto nasce com o intuito de utilizar a IA para democratizar o acesso à informação. Através de uma rede neural, a proposta busca alcançar qualquer pessoa que sofra com a disseminação de conteúdo duvidoso."
+                "A crescente utilização de Inteligência Artificial Generativa tornou a criação de vídeos sintéticos cada vez mais acessível. Esse cenário dificulta a distinção entre conteúdos produzidos por pessoas e aqueles gerados por IA, favorecendo a disseminação de informações falsas. Usuários com menor nível de letramento digital podem encontrar ainda mais dificuldade para avaliar e identificar conteúdos falsos ou manipulados.\n\nA questão ganha relevância em períodos eleitorais, nos quais conteúdos audiovisuais podem influenciar a percepção popular sobre candidatos e acontecimentos. No Brasil, a circulação de conteúdos manipulados ou fabricados representa uma preocupação adicional, especialmente diante das medidas adotadas pelo Tribunal Superior Eleitoral para combater a desinformação e o uso de deepfakes.\n\nDiante desse problema, o projeto busca desenvolver uma ferramenta acessível capaz de analisar vídeos e identificar indícios de geração por Inteligência Artificial. A proposta não pretende avaliar a veracidade das informações apresentadas no vídeo, mas analisar evidências relacionadas à sua origem e possível geração sintética."
         },
         {
             "id": "solucao",
             "label": "Solução",
             "title": "Nosso objetivo",
             "content":
-                "O objetivo principal do projeto é desenvolver uma plataforma confiável que integra inteligência artificial para a distinção de vídeos sintéticos dos reais, tornando a internet um lugar mais transparente.\n\nPara isso, foi criado um website com uma interface intuitiva e acessível para qualquer perfil de usuário. Além disso, será desenvolvida uma inteligência artificial baseada em redes neurais para realizar a classificação dos vídeos de forma automatizada, buscando atingir uma taxa de acerto o mais próxima possível de 100%, de modo a garantir maior confiabilidade nos resultados apresentados pela plataforma."
+                "O objetivo principal do projeto é desenvolver um algoritmo baseado em Inteligência Artificial capaz de analisar vídeos e identificar indícios de que seu conteúdo foi gerado artificialmente, apresentando os resultados de forma acessível em uma plataforma web.\n\nPara isso, a solução prevê uma interface simples e intuitiva na qual o usuário poderá fornecer um vídeo para processamento. A Inteligência Artificial será responsável por analisar características visuais e temporais, buscando padrões ou inconsistências associados a vídeos gerados por IA.\n\nAo final da análise, a plataforma deverá apresentar o resultado acompanhado de evidências visuais que auxiliem o usuário a compreender como a análise foi realizada. A proposta também considera a privacidade dos usuários, evitando o armazenamento permanente dos vídeos enviados."
         },
         {
             "id": "acoes",
             "label": "Ações",
             "title": "O que estamos fazendo",
             "content":
-                ""
+                "O projeto está sendo desenvolvido por meio de uma pesquisa aplicada, quantitativa, experimental e bibliográfica, utilizando evidências científicas como base para a definição das técnicas empregadas.\n\nEntre as principais ações realizadas estão a pesquisa de métodos de detecção de mídias sintéticas, o estudo de características espaciais e temporais presentes em vídeos, a definição de um pipeline experimental e o desenvolvimento e treinamento de modelos de Inteligência Artificial para a identificação de indícios de geração sintética.\n\nA pesquisa também explora a análise de consistência entre quadros e o uso de fluxo óptico para representar o movimento entre quadros consecutivos. Na estrutura estudada como referência, o estimador RAFT é utilizado para extrair assinaturas de movimento temporal, permitindo investigar artefatos que podem diferenciar vídeos reais de vídeos sintetizados por IA.\n\nPara os experimentos, foi selecionado o conjunto Flickr-Faces-HQ (FFHQ), com 70.000 imagens de rostos humanos reais, utilizado como referência para a classe de imagens verdadeiras. Devido às restrições computacionais, foi adotado um volume aproximado de 1.200 imagens por etapa de treinamento.\n\nO desenvolvimento também precisou lidar com limitações de infraestrutura. Após problemas no hardware disponibilizado pela instituição, foi estabelecida uma cooperação acadêmica que permitiu o uso temporário de uma máquina de maior desempenho para a continuidade dos experimentos."
         },
         {
             "id": "resultado",
             "label": "Resultados",
             "title": "O que alcançamos até agora",
             "content":
-                ""
+                "O projeto encontra-se em fase ativa de treinamento e validação dos modelos de detecção. Os experimentos preliminares com um modelo simples já permitiram observar limitações da análise estritamente bidimensional e reforçaram a necessidade de técnicas de análise forense espaço-temporal para melhorar a capacidade de generalização em cenários mais diversos.\n\nA pesquisa teórica e experimental indica que inconsistências temporais podem fornecer informações relevantes para a detecção de vídeos gerados por Inteligência Artificial. Entre os indícios estudados estão padrões de movimento fragmentados, bordas borradas e transições de movimento que não apresentam a mesma suavidade física observada em vídeos reais.\n\nComo o treinamento e a validação ainda estão em andamento, o relatório não apresenta uma taxa final de precisão ou um desempenho definitivo do classificador. Assim, os resultados atuais devem ser entendidos como resultados preliminares e como evidências para orientar as próximas etapas do desenvolvimento."
         },
         {
             "id": "consideracoes",
             "label": "Considerações",
             "title": "Considerações finais",
             "content":
-                ""
+                "O projeto tem como objetivo desenvolver um algoritmo capaz de identificar indícios de geração sintética em vídeos e apresentar os resultados de maneira transparente e didática por meio de uma plataforma web.\n\nAté o estágio atual, a estrutura teórica e o planejamento experimental necessários para o desenvolvimento da solução foram estabelecidos, enquanto o treinamento e a validação dos modelos continuam em andamento. A literatura analisada sustenta a hipótese de que a análise da consistência espaço-temporal entre quadros pode auxiliar na identificação de conteúdos gerados por Inteligência Artificial.\n\nAs próximas etapas concentram-se no amadurecimento técnico do classificador forense, na continuidade dos experimentos e na avaliação de seu desempenho e limitações. Posteriormente, pretende-se integrar o modelo a uma plataforma web acessível, na qual o usuário poderá enviar vídeos e receber uma análise acompanhada de evidências visuais."
         }
     ]
 }

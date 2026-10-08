@@ -34,7 +34,7 @@ export function Features(){
                 {items.map(({ icon: Icon, color, title, text }) => (
                     <article
                         key = {title}
-                        className = 'rounded-xl border border-border bg-card p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg'
+                        className = 'rounded-xl border border-border bg-card p-6 shadow-sm transition-all duration-300 hover:shadow-lg'
                     >
                         <span
                             className = 'flex h-11 w-11 items-center justify-center rounded-full'
